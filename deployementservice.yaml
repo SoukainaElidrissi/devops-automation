@@ -15,7 +15,7 @@ spec:
       containers:
         - name: spring-boot-docker
           image: soukaina2002/devops-integration
-          imagePullPolicy: IfNotPresent
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
 ---
